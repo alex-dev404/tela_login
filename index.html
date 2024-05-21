@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de senha</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <form>
+
+            <h3>Login</h3>
+            <input type="text" placeholder="Login" id="login">
+            <input type="password" id="passwordInput" placeholder="sua senha">
+        <div class="passwordBar">
+            <div id="bar" class="bar"></div>
+        </div>
+        <p id="password-strenght">senha fraca</p>
+        <p id="tip">sua senha precisa conter letra maiusculas e minusculas,numeros e caracteres especiais</p>
+            <input type="submit" onclick="logar(); return false">
+            <div>
+                <button onclick="entrar()">Entrar</button>
+                <button>google</button>
+            </div>
+            
+    
+        </form>
+    </div>
+
+</body>
+</html>
